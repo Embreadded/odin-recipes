@@ -1,5 +1,21 @@
+/* general */
 
-.mainbackground {
-    background-color: royalblue;
+body {
+    background-image: url(../images/background.png);
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
 }
 
+.logo {
+    display: block;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 20%;
+}
+
+h1 {
+    font-size: 35px;
+}
