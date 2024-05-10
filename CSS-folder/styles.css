@@ -3,13 +3,17 @@
 body {
     background-image: url(../images/background.png);
     font-family: Arial, sans-serif;
-    font-size: 30px;
     text-align: center;
+}
+
+.left {
+    display: inline-block;
+    text-align: left;
 }
 
 .logo {
     display: block;
-    margin-top: -100px;
+    margin-top: -50px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -18,4 +22,26 @@ body {
 
 h1 {
     font-size: 35px;
+    border-bottom: 5px solid;
+}
+
+.border {
+    background-color: #fff;
+    background-color: rgba(255,255,255,.5);
+    padding: 5px 5px;
+    border: 3px solid;
+    border-radius: 10px;
+    cursor: pointer;     
+}
+
+.button {
+    background-color: rgba(122, 235, 250, 0.514);
+    border: 1px solid;
+    border-radius: 5px;
+    color: blue;
+}
+
+.disc {
+    font-family: Arial, sans-serif;
+    font-size: 23px;
 }
