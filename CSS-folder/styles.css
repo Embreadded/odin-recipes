@@ -1,9 +1,15 @@
 /* general */
 
+
 body {
     background-image: url(../images/background.png);
     font-family: Arial, sans-serif;
     text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    border-bottom: 5px solid;
 }
 
 .left {
@@ -13,22 +19,17 @@ body {
 
 .logo {
     display: block;
-    margin-top: -50px;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     width: 20%;
 }
 
-h1 {
-    font-size: 35px;
-    border-bottom: 5px solid;
-}
-
 .border {
     background-color: #fff;
     background-color: rgba(255,255,255,.5);
-    padding: 5px 5px;
+    padding: 5px;
     border: 3px solid;
     border-radius: 10px;
     cursor: pointer;     
@@ -44,4 +45,36 @@ h1 {
 .disc {
     font-family: Arial, sans-serif;
     font-size: 23px;
+}
+
+
+/* infoboxex */
+
+#table {
+    background-color: rgba(255, 255, 255, 0.644);
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.infoheader {
+    background-color: rgba(103, 0, 134, 0.603);
+    border: 1px solid;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+}
+
+
+.infotitles {
+    background-color: rgba(103, 0, 134, 0.700);
+    border: 2px solid;
+    text-align: left;
+    width: 150px;
 }
